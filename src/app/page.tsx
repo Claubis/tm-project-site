@@ -6,7 +6,7 @@ import AboutService from "./AboutServices/page";
 import Services from './Services/page';
 import CarroselServices from "./CarroselServices/page";
 import FormQuote from "./FormQuote/page";
-
+import FormFeedback from "./FormFeedback/page";
 
 export default function Home() {
   return (
@@ -17,6 +17,7 @@ export default function Home() {
         <Services/>
         <CarroselServices/>
         <FormQuote/>
+        <FormFeedback/>
     </div>
   );
 }

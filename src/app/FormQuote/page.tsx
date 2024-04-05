@@ -9,7 +9,7 @@ export default function FormQuote() {
 
         <div className="w-3/5 pl-4 flex flex-col justify-center content-center min-h-full container-form">
 
-            <form className="rounded-lg bg-white p-10 md:w-[80%] form-quote">
+            <form className="rounded-lg bg-white p-5 md:w-[80%] form-quote">
 
                 {/* Informações pessoais */}
                 <div className="w-full">

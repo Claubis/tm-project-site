@@ -53,7 +53,7 @@ export default function About() {
           <img
             src={image.src}
             alt="Logo da empresa"
-            className="w-[20rem] max-w-none rounded-xl  ring-gray-400/10 sm:w-[32rem] md:-ml-4 lg:-ml-0"
+            className="w-[20rem] max-w-none rounded-xl  ring-gray-400/10 sm:w-[32rem] md:-ml-4 lg:-ml-0 transition-transform duration-500 hover:translate-x-2 hover:translate-y-2"
             width={2432}
             height={1442}
           />
@@ -63,7 +63,7 @@ export default function About() {
 
           <p className="mt-6 text-lg= leading-8 text-gray-600 w-[32rem]">Marque sua visita conosco agora e sinta a diferença de um serviço pensado para você. Estamos à disposição para discutir como podemos atender às suas necessidades. </p>
 
-          <a href="#" className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          <a href="#" className="rounded-md bg-[#F3AACB] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#B3CEE5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >Solicite seu orçamento Grátis
           </a>
           
