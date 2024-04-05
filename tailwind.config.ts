@@ -7,6 +7,10 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
+    fontFamily: {
+      'title': ['Orelega One'],
+    },
     extend: {
 
       colors: {
@@ -38,3 +42,5 @@ const config: Config = {
   plugins: [],
 };
 export default config;
+
+

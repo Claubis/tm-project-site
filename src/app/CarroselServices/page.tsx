@@ -41,16 +41,17 @@ export default function CarroselServices() {
 
   return (
     
-    <div id="animation-carousel" data-carousel="static" className='flex flex-col justify-center items-center bg-[#FDEAF2] p-20'>
+    <div id="animation-carousel" data-carousel="static" className='flex flex-col justify-center items-center bg-[#FDEAF2] p-5 md:p-20'>
 
       <div className='w-full'>
 
-          <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase md:text-center'>Um pouco sobre os</h1>
+          <h2 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mt-20 md:mt-0'>Serviços realizados</h2>
 
-          <h2 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase md:text-center'>serviços realizados</h2>
+          <p className='mt-10 mb-0 text-lg leading-8 text-gray-600'>Conheça um pouco do antes e depois de alguns serviços que já executamos.</p>,
+
       </div>
 
-      <div className="mt-20 w-[100%] md:w-2/5">
+      <div className="mt-10 md:mt-20 w-[100%] md:w-2/5">
       {/*overflow-hidden*/}
 
 
@@ -64,7 +65,7 @@ export default function CarroselServices() {
           <SwiperSlide key={item.id}>
             <img src={item.image} 
             alt="Imagens dos serviços realizados"
-            className='slide-item rounded-xl'
+            className='slide-item rounded-xl h-[400px] w-full'
             />
 
           </SwiperSlide>
@@ -75,7 +76,7 @@ export default function CarroselServices() {
 
       </div>
  
-      <div className='text-start mt-20 md:text-center w-[100%]'>
+      <div className='text-start mt-10 mb-10 md:text-center w-[100%] md:w-[80%]'>
         <h3 className='mt-6 text-lg leading-8 text-gray-600'>Descubra como nos dedicamos a cada detalhe dos nossos serviços de limpeza, feitos pensando em você. Queremos mais do que satisfazer; nosso objetivo é encantar cada cliente e amigo que confia em nós. As fotos que você vê refletem alguns dos trabalhos que realizamos com carinho e atenção, sempre buscando a excelência para entregar o melhor possível em cada serviço.</h3>
       </div>
 

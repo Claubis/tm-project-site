@@ -303,10 +303,10 @@ export default function FormQuote() {
 
         </div>
 
-        <div className="w-full pl-4 flex flex-col justify-center gap-5 mt-20">
+        <div className="w-full flex flex-col justify-center gap-5 mt-20 md:p-20">
             
-            <h1 className='text-4xl font-bold tracking-tight text-[#FFFF] sm:text-6xl uppercase'>Solicite seu orçamento</h1>
-            <p className='mt-4 text-xl text-gray-500 leading-10'>Para agendar um serviço de limpeza ou solicitar um orçamento, preencha o formulário ao lado. Compartilhe conosco os detalhes do serviço desejado, seja para uma limpeza residencial, comercial ou para um evento especial. Estamos prontos para atender às suas necessidades e garantir a limpeza e o conforto que você merece.</p>
+            <h1 className='text-4xl font-bold tracking-tight text-[#FFFF] sm:text-6xl uppercase w-[80%] lg:w-full'>Solicite seu orçamento</h1>
+            <p className='mt-4 text-xl text-gray-500 leading-10 w-[80%] lg:w-full'>Para agendar um serviço de limpeza ou solicitar um orçamento, preencha o formulário ao lado. Compartilhe conosco os detalhes do serviço desejado, seja para uma limpeza residencial, comercial ou para um evento especial. Estamos prontos para atender às suas necessidades e garantir a limpeza e o conforto que você merece.</p>
         </div>
 
 

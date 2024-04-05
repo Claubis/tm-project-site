@@ -1,0 +1,12 @@
+{
+ "feedbacksRecebidos": [
+    {
+        "id": "1",
+        "descrição": "Feedback recebido"
+    },
+    {
+        "id": "2",
+        "descrição": "Feedback recebido"
+    }
+ ]
+}

@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+
+/* Fontes */
+
+
+/* Estilos */
 import "./globals.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

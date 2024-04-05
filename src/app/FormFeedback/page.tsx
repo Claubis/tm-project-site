@@ -40,9 +40,9 @@ export default function FormFeedback(){
 
         <div className="bg-[#FFFFF] min-h-full md:flex md:justify-center md:content-center ">
 
-            <div className="w-[100%] flex flex-col justify-content content-center gap-10 p-20 mt-10">
+            <div className="w-[100%] flex flex-col justify-content content-center gap-10 p-10 md:p-20 mt-10">
 
-                    <h1 className="text-4xl font-bold tracking-tight text-[#064E8B] sm:text-6xl uppercase mt-20">Sua opinião é essencial para nós!</h1>
+                    <h1 className="text-4xl font-bold tracking-tight text-[#064E8B] sm:text-6xl uppercase">Sua opinião é essencial para nós!</h1>
 
                     <h2 className="mt-6 text-lg leading-8 text-gray-800">Complete o formulário disponível aqui ao lado e faça com que sua voz ecoe!</h2>
 
@@ -87,6 +87,15 @@ export default function FormFeedback(){
                         <textarea id="message" rows={8} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
 
                     </div>
+
+                    <div className='flex justify-center text-center mt-10'>
+                    <a
+                    href="#"
+                    className="rounded-md bg-[#EB9AC0] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#FDEAF2] hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 w-[80%] md:w-[60%]"
+                    >
+                    Enviar meu feedback
+                    </a>
+                </div>
 
 
 

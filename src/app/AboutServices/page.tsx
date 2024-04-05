@@ -20,14 +20,14 @@ import { faCalendar } from '@fortawesome/free-solid-svg-icons'
 
 export default function AboutService() {
     return (
-      <div className="relative overflow-hidden bg-[#FDEAF2] h-full pt-20">
+      <div className="relative overflow-hidden bg-[#FDEAF2] h-[60rem] md:h-full">
         
-        <div className="pb-80 pt-16 sm:pb-40 sm:pt-60 lg:pb-48 lg:pt-60 h-full">
+        <div className="pt-16 pb-0 md:pb-20">
           
-          <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+          <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8 ">
             
-              <div className="sm:max-w-lg leading-10">
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl pb-20 md:pb-0">
+              <div className="sm:max-w-lg leading-10 md:pt-[50px]">
+                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl pb-5 md:pb-10 uppercase md:normal-case">
                   Serviços oferecidos
                 </h1>
                 <p className="mt-4 text-xl text-gray-500 leading-10 md:leading-1">
@@ -41,7 +41,7 @@ export default function AboutService() {
 
                 <div>
                   
-                  <h2 className='mt-10 text-xl font-bold text-gray-900'>Escolha entre</h2>
+                  <h2 className='text-xl font-bold text-gray-900'>Escolha entre</h2>
 
                   <div className='mt-6'>
                       <p className="flex items-center mt-5"><FontAwesomeIcon className="w-5 h-5 mr-2" icon={faClock} />Serviços diários</p>
@@ -60,85 +60,86 @@ export default function AboutService() {
 
               </div>
             
-            <div>
-              
-              <div className="mt-10 hidden lg:flex">
-                <div
-                  aria-hidden="true"
-                  className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
-                >
-                  <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
-                    
-                    <div className="flex items-center space-x-6 lg:space-x-8 grid grid-cols-1 sm:flex-col lg:grid-cols-3 gap-y-6 sm:gap-y-6 lg:gap-x-8 w-full h-full">
+              <div>
+                
+                <div className="mt-10 hidden lg:flex">
+                  <div
+                    aria-hidden="true"
+                    className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
+                  >
+                    <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                       
-                      <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div className="flex items-center space-x-6 lg:space-x-8 grid grid-cols-1 sm:flex-col lg:grid-cols-3 gap-y-6 sm:gap-y-6 lg:gap-x-8 w-full h-full">
                         
-                        <div className="h-64 w-full overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
-                          <img
-                            src={image.src}
-                            alt="Imagem da sala no inicio"
-                            className="h-full w-full object-cover object-center"
-                          />
+                        <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                          
+                          <div className="h-64 w-full overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                            <img
+                              src={image.src}
+                              alt="Imagem da sala no inicio"
+                              className="h-full w-full object-cover object-center"
+                            />
+                          </div>
+                          <div className="h-64 w-44 overflow-hidden rounded-lg">
+                            <img
+                              src={image2.src}
+                              alt="Imagem da sala depois do serviço"
+                              className="h-full w-full object-cover object-center"
+                            />
+                          </div>
                         </div>
-                        <div className="h-64 w-44 overflow-hidden rounded-lg">
-                          <img
-                            src={image2.src}
-                            alt="Imagem da sala depois do serviço"
-                            className="h-full w-full object-cover object-center"
-                          />
+                        <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                          <div className="h-64 w-44 overflow-hidden rounded-lg">
+                            <img
+                              src={image3.src}
+                              alt="Imagem da cozinha antes do serviço"
+                              className="h-full w-full object-cover object-center"
+                            />
+                          </div>
+                          <div className="h-64 w-44 overflow-hidden rounded-lg">
+                            <img
+                              src={image4.src}
+                              alt="Imagem da cozinha depois do serviço"
+                              className="h-full w-full object-cover object-center"
+                            />
+                          </div>
+                          <div className="h-64 w-44 overflow-hidden rounded-lg">
+                            <img
+                              src={image5.src}
+                              alt="Imagem da geladeira antes do serviço"
+                              className="h-full w-full object-cover object-center"
+                            />
+                          </div>
                         </div>
-                      </div>
-                      <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="h-64 w-44 overflow-hidden rounded-lg">
-                          <img
-                            src={image3.src}
-                            alt="Imagem da cozinha antes do serviço"
-                            className="h-full w-full object-cover object-center"
-                          />
-                        </div>
-                        <div className="h-64 w-44 overflow-hidden rounded-lg">
-                          <img
-                            src={image4.src}
-                            alt="Imagem da cozinha depois do serviço"
-                            className="h-full w-full object-cover object-center"
-                          />
-                        </div>
-                        <div className="h-64 w-44 overflow-hidden rounded-lg">
-                          <img
-                            src={image5.src}
-                            alt="Imagem da geladeira antes do serviço"
-                            className="h-full w-full object-cover object-center"
-                          />
-                        </div>
-                      </div>
-                      <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="h-64 w-44 overflow-hidden rounded-lg">
-                          <img
-                            src={image6.src}
-                            alt="Imagem da geladeira depois"
-                            className="h-full w-full object-cover object-center"
-                          />
-                        </div>
-                        <div className="h-74 w-44 overflow-hidden rounded-lg ">
-                          <img
-                            src={image7.src}
-                            alt="Logo da empresa"
-                            className="h-full w-full object-cover object-center"
-                          />
+                        <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                          <div className="h-64 w-44 overflow-hidden rounded-lg">
+                            <img
+                              src={image6.src}
+                              alt="Imagem da geladeira depois"
+                              className="h-full w-full object-cover object-center"
+                            />
+                          </div>
+                          <div className="h-74 w-44 overflow-hidden rounded-lg ">
+                            <img
+                              src={image7.src}
+                              alt="Logo da empresa"
+                              className="h-full w-full object-cover object-center"
+                            />
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
+    
+                  <a
+                    href="#"
+                    className="inline-block rounded-md border border-transparent bg-[#F3AACB] px-8 py-3 text-center font-medium text-white hover:bg-[#B3CEE5"
+                  >
+                    Orçamento grátis
+                  </a>
                 </div>
-  
-                <a
-                  href="#"
-                  className="inline-block rounded-md border border-transparent bg-[#F3AACB] px-8 py-3 text-center font-medium text-white hover:bg-[#B3CEE5"
-                >
-                  Orçamento grátis
-                </a>
               </div>
-            </div>
+
           </div>
         </div>
       </div>
