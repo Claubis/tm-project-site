@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 };
 
 import Navbar from './Navbar/page'
+import Footer from "./Footer/page";
 
 export default function RootLayout({
   children,
@@ -20,6 +22,7 @@ export default function RootLayout({
       <body>
           <Navbar/>
           {children}
+          <Footer/>
       </body>
     </html>
   );

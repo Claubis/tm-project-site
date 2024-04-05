@@ -53,7 +53,7 @@ export default function About() {
           <img
             src={image.src}
             alt="Logo da empresa"
-            className="w-[20rem] max-w-none rounded-xl  ring-gray-400/10 sm:w-[32rem] md:-ml-4 lg:-ml-0 transition-transform duration-500 hover:translate-x-2 hover:translate-y-2"
+            className="w-[20rem] max-w-none rounded-xl  ring-gray-400/10 sm:w-[32rem] md:-ml-4 lg:-ml-0 transition-transform duration-500 hover:translate-x-2 hover:translate-y-2 "
             width={2432}
             height={1442}
           />

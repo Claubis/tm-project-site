@@ -35,19 +35,19 @@ export default function FormFeedback(){
 
         <div className="bg-[#FFFFF] min-h-full md:flex md:justify-center md:content-center ">
 
-            <div className="w-[50%] flex flex-col justify-content content-center gap-10 p-20 h-[100vh]">
+            <div className="w-[100%] flex flex-col justify-content content-center gap-10 p-20 mt-10">
 
-                    <h1 className="mt-2 text-6xl font-bold tracking-tight text-[#064E8B] mt-[100px]">Sua opinião é <br /> essencial para nós!</h1>
+                    <h1 className="text-4xl font-bold tracking-tight text-[#064E8B] sm:text-6xl uppercase mt-20">Sua opinião é essencial para nós!</h1>
 
-                    <h2 className="text-3xl leading-[50px]">Complete o formulário disponível aqui ao lado e faça com que sua voz ecoe!</h2>
+                    <h2 className="mt-6 text-lg leading-8 text-gray-800">Complete o formulário disponível aqui ao lado e faça com que sua voz ecoe!</h2>
 
-                    <p className="text-xl leading-[50px]">Ao responder à pesquisa, você tem a oportunidade de compartilhar suas ideias, sugestões e impressões. Com isso, nos ajudará a aprimorar nossos serviços, beneficiando-se diretamente ao reservar espaços para atividades profissionais, poderá aproveitar o tempo para organizar encontros com amigos, desfrutar de momentos valiosos em família ou explorar novos conhecimentos e descobertas.</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-800">Ao responder à pesquisa, você tem a oportunidade de compartilhar suas ideias, sugestões e impressões. Com isso, nos ajudará a aprimorar nossos serviços, beneficiando-se diretamente ao reservar espaços para atividades profissionais, poderá aproveitar o tempo para organizar encontros com amigos, desfrutar de momentos valiosos em família ou explorar novos conhecimentos e descobertas.</p>
 
             </div>
 
-            <div className="w-[50%] bg-[#FFFFF] p-20">
+            <div className="w-[100%] bg-[#FFFFF] p-10">
 
-                <form className="w-[100%] mx-auto bg-[#B3CEE5] mt-20 rounded-lg p-20 grid-cols-*">
+                <form className="w-[100%] mx-auto bg-[#B3CEE5] rounded-lg p-10 grid-cols-* md:mt-20">
 
                     <div className="">
                         

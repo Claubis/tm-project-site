@@ -5,18 +5,18 @@ import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 export default function FormQuote() {
   return (
 
-    <div className='md:flex md:flex-nowrap sm:flex-wrap-reverse bg-[#F3AACB] container-quote'>
+    <div className='bg-[#F3AACB] min-h-full md:flex md:justify-center md:content-center pl-10 pt-20 pb-20'>
 
-        <div className="w-3/5 pl-4 flex flex-col justify-center content-center min-h-full container-form">
+        <div className="w-[90%] bg-[#FFFF] rounded-xl">
 
-            <form className="rounded-lg bg-white p-5 md:w-[80%] form-quote">
+            <form className="w-full mx-auto bg-[#FFFFF] rounded-lg p-10 grid-cols-* md:mt-20">
 
                 {/* Informações pessoais */}
-                <div className="w-full">
+                <div className="mb-5">
                     
-                    <h2 className="text-lg font-semibold leading-7 text-gray-900 uppercase text-blue-900">Informações pessoais</h2>
+                    <h2 className="text- font-semibold leading-7 text-gray-900 uppercase text-blue-900">Informações pessoais</h2>
 
-                    <div className="mt-5 flex gap-x-1 gap-y-6  sm:flex-col">
+                    <div className="mt-5 flex gap-x-1 gap-y-6  flex-col">
                     
                         <div className="sm:col-span-3">
 
@@ -301,11 +301,11 @@ export default function FormQuote() {
 
             </form>
 
-        
         </div>
 
-        <div className="w-2/5 pl-4 flex flex-col justify-center content-center gap-10">
-            <h1 className='text-4xl font-bold tracking-tight text-[#FFFFFF] sm:text-6xl'>Solicite seu orçamento</h1>
+        <div className="w-full pl-4 flex flex-col justify-center gap-5 mt-20">
+            
+            <h1 className='text-4xl font-bold tracking-tight text-[#FFFFF] sm:text-6xl uppercase'>Solicite seu orçamento</h1>
             <p className='mt-4 text-xl text-gray-500 leading-10'>Para agendar um serviço de limpeza ou solicitar um orçamento, preencha o formulário ao lado. Compartilhe conosco os detalhes do serviço desejado, seja para uma limpeza residencial, comercial ou para um evento especial. Estamos prontos para atender às suas necessidades e garantir a limpeza e o conforto que você merece.</p>
         </div>
 

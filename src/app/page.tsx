@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import HomePage from "./HomePage/page";
 import About from "./About/page";
 import AboutService from "./AboutServices/page";

@@ -24,16 +24,16 @@ export default function CarroselServices() {
 
   return (
     
-    <div className='flex flex-col justify-center content-center h-[100vh] bg-[#FDEAF2] p-20'>
+    <div className='flex flex-col justify-center bg-[#FDEAF2] p-20'>
 
       <div className='w-full'>
 
-          <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl text-center uppercase'>Um pouco sobre os</h1>
+          <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase md:text-center'>Um pouco sobre os</h1>
 
-          <h2 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-20 text-center uppercase'>serviços realizados</h2>
+          <h2 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase md:text-center'>serviços realizados</h2>
       </div>
 
-      <div className="h-[70px] sm:h-[100px] xl:h-80 2xl:h-96 w-[70%] flex justify-center pl-[30%]">
+      <div className="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96 mt-20 md:w-3/5 md:ml-[20%]">
 
         <Carousel pauseOnHover>
           <img className='' src={imagem.src} alt="..." />
@@ -45,8 +45,8 @@ export default function CarroselServices() {
 
       </div>
 
-      <div className='mt-20 w-[80%] pl-[25%]'>
-        <h3 className='text-xl leading-10'>Descubra como nos dedicamos a cada detalhe dos nossos serviços de limpeza, feitos pensando em você. Queremos mais do que satisfazer; nosso objetivo é encantar cada cliente e amigo que confia em nós. As fotos que você vê refletem alguns dos trabalhos que realizamos com carinho e atenção, sempre buscando a excelência para entregar o melhor possível em cada serviço.</h3>
+      <div className='text-start mt-20'>
+        <h3 className='mt-6 text-lg leading-8 text-gray-600'>Descubra como nos dedicamos a cada detalhe dos nossos serviços de limpeza, feitos pensando em você. Queremos mais do que satisfazer; nosso objetivo é encantar cada cliente e amigo que confia em nós. As fotos que você vê refletem alguns dos trabalhos que realizamos com carinho e atenção, sempre buscando a excelência para entregar o melhor possível em cada serviço.</h3>
       </div>
 
     </div>
