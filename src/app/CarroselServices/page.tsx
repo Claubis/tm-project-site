@@ -17,14 +17,31 @@ import imagem4 from '../../../public/assets/AboutServices/banheiro-depois.jpg';
 import imagem5 from '../../../public/assets/AboutServices/fogao-antes.jpg';
 import imagem6 from '../../../public/assets/AboutServices/fogao-depois.jpg';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { register } from 'swiper/element/bundle';
 
+register();
+// Importe os estilos CSS necessários
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 export default function CarroselServices() {
 
+  const data = [
+
+    {id: "1", image: '/assets/AboutServices/cozinha-antes.jpg'},
+    {id: "2", image: '/assets/AboutServices/cozinha-depois.jpg'},
+    {id: "3", image: '/assets/AboutServices/banheiro-antes.jpg'},
+    {id: "4", image: '/assets/AboutServices/banheiro-depois.jpg'},
+    {id: "5", image: '/assets/AboutServices/fogao-antes.jpg'},
+    {id: "6", image: '/assets/AboutServices/fogao-depois.jpg'},
+  ]
 
   return (
     
-    <div className='flex flex-col justify-center bg-[#FDEAF2] p-20'>
+    <div id="animation-carousel" data-carousel="static" className='flex flex-col justify-center items-center bg-[#FDEAF2] p-20'>
 
       <div className='w-full'>
 
@@ -33,19 +50,32 @@ export default function CarroselServices() {
           <h2 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase md:text-center'>serviços realizados</h2>
       </div>
 
-      <div className="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96 mt-20 md:w-3/5 md:ml-[20%]">
+      <div className="mt-20 w-[100%] md:w-2/5">
+      {/*overflow-hidden*/}
 
-        <Carousel pauseOnHover>
-          <img className='' src={imagem.src} alt="..." />
-          <img src={imagem2.src}  alt="..." />
-          <img src={imagem3.src}  alt="..." />
-          <img src={imagem4.src}  alt="..." />
-          <img src={imagem5.src}  alt="..." />
-        </Carousel>
+
+      <Swiper
+        slidesPerView={1}
+        navigation={true}
+        pagination={{ clickable: true }}
+        >
+          
+        {data.map( (item) => (
+          <SwiperSlide key={item.id}>
+            <img src={item.image} 
+            alt="Imagens dos serviços realizados"
+            className='slide-item rounded-xl'
+            />
+
+          </SwiperSlide>
+        ))}
+        
+
+      </Swiper>
 
       </div>
-
-      <div className='text-start mt-20'>
+ 
+      <div className='text-start mt-20 md:text-center w-[100%]'>
         <h3 className='mt-6 text-lg leading-8 text-gray-600'>Descubra como nos dedicamos a cada detalhe dos nossos serviços de limpeza, feitos pensando em você. Queremos mais do que satisfazer; nosso objetivo é encantar cada cliente e amigo que confia em nós. As fotos que você vê refletem alguns dos trabalhos que realizamos com carinho e atenção, sempre buscando a excelência para entregar o melhor possível em cada serviço.</h3>
       </div>
 

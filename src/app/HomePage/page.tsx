@@ -25,18 +25,18 @@ export default function HomePage() {
                     </a>
                     </div>
                 </div>
-                <div className="text-center">
-                    <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase">
+                <div className="">
+                    <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase text-left md:text-center">
                     TM Cleaning Service
                     </h1>
-                    <p className="mt-6 text-lg leading-8 text-gray-600">
+                    <p className="mt-6 text-lg leading-8 text-gray-600 md:text-center w-[80%] md:w-full">
                     Bem-vindo à TM Cleaning Service, onde tratamos de cada canto de Kirkland e região. Nós entramos em cena para que você possa relaxar e se dedicar ao que realmente importa para você. Com nosso time de coração, garantimos que cada espaço seu brilhe, deixando você com uma sensação de paz e com mais tempo livre para aproveitar a vida.
                     </p>
                     
-                    <div className="mt-10 flex items-center justify-center gap-x-6 sm:flex-col sm:mt-10 sm:gap-y-10">
+                    <div className="mt-10 grid gap-5 md:flex md:items-center md:justify-center md:gap-x-6 w-[80%]">
                         <a
                             href="#"
-                            className="rounded-md bg-[#EB9AC0] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#B3CEE5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            className="rounded-md bg-[#EB9AC0] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#B3CEE5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 w-[70%] sm:w-[40%]"
                         >
                             Solicite seu orçamento
                         </a>

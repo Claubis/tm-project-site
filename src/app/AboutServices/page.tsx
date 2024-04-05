@@ -20,17 +20,17 @@ import { faCalendar } from '@fortawesome/free-solid-svg-icons'
 
 export default function AboutService() {
     return (
-      <div className="relative overflow-hidden bg-[#FDEAF2] h-full">
+      <div className="relative overflow-hidden bg-[#FDEAF2] h-full pt-20">
         
         <div className="pb-80 pt-16 sm:pb-40 sm:pt-60 lg:pb-48 lg:pt-60 h-full">
           
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             
-              <div className="sm:max-w-lg">
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <div className="sm:max-w-lg leading-10">
+                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl pb-20 md:pb-0">
                   Serviços oferecidos
                 </h1>
-                <p className="mt-4 text-xl text-gray-500">
+                <p className="mt-4 text-xl text-gray-500 leading-10 md:leading-1">
                   Estamos em constante evolução e queremos o melhor para sua residência, para sua empresa, para cada bem que você possui. 
 
                   <br /> <br />
@@ -62,7 +62,7 @@ export default function AboutService() {
             
             <div>
               
-              <div className="mt-10">
+              <div className="mt-10 hidden lg:flex">
                 <div
                   aria-hidden="true"
                   className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"

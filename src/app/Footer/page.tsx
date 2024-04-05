@@ -68,7 +68,7 @@ export default function Footer() {
                 
                 <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
                 
-                <p className="font-sans p-8 text-start md:text-center md:text-lg md:p-4">&copy; 2024 TM Cleaning. Todos os direitos reservados.</p>
+                <p className="font-sans p-8 text-start md:text-center md:text-lg md:p-4 dark:text-[#EB9AC0]">&copy; 2024 TM Cleaning. Todos os direitos reservados.</p>
             </div>
         </footer>
 

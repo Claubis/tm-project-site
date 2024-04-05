@@ -61,7 +61,7 @@ export default function About() {
 
         <div className="mt-10 flex flex-col items-start justify-start gap-y-5">
 
-          <p className="mt-6 text-lg= leading-8 text-gray-600 w-[32rem]">Marque sua visita conosco agora e sinta a diferença de um serviço pensado para você. Estamos à disposição para discutir como podemos atender às suas necessidades. </p>
+          <p className="mt-6 text-lg= leading-8 text-gray-600 w-[22rem] md:w-[32rem]">Marque sua visita conosco agora e sinta a diferença de um serviço pensado para você. Estamos à disposição para discutir como podemos atender às suas necessidades. </p>
 
           <a href="#" className="rounded-md bg-[#F3AACB] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#B3CEE5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >Solicite seu orçamento Grátis
