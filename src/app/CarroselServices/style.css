@@ -1,0 +1,15 @@
+.container-carrosel {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FDEAF2;
+    align-items: center;
+}
+
+.conteiner-imagem-opcoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
