@@ -16,7 +16,7 @@ const features = [
   },
   {
     name: 'Flexible Scheduling',
-    description: "We recognize the hustle and bustle of daily life. That's why we offer service from Monday to Saturday, allowing you to find the perfect time for us to come by.",
+    description: 'We recognize the hustle and bustle of daily life. Thats why we offer service from Monday to Saturday, allowing you to find the perfect time for us to come by.',
     icon: ClockIcon,
   },
 ]

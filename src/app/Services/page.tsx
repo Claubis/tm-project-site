@@ -3,7 +3,7 @@
 const callouts = [
     {
       name: 'Regular Cleaning',
-      description: "Customized to your family's needs, our regular cleaning service keeps your home consistently fresh and welcoming.",
+      description: 'Customized to your familys needs, our regular cleaning service keeps your home consistently fresh and welcoming.',
       imageSrc: '/assets/Services/regular.png',
       imageAlt: 'Imagem de um serviço regular',
       href: '#',
@@ -37,7 +37,7 @@ const callouts = [
     },
     {
       name: 'Event',
-      description: "Organizing an event is exhausting enough - let us take care of the cleaning. We'll ensure your space is spotless for your next party or event.",
+      description: 'Organizing an event is exhausting enough - let us take care of the cleaning. We ll ensure your space is spotless for your next party or event.',
       imageSrc: '/assets/Services/evento.png',
       href: '#',
     },
