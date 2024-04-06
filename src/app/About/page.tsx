@@ -1,5 +1,7 @@
 import { HeartIcon, GlobeAltIcon, ClockIcon } from '@heroicons/react/24/solid';
+import Link from 'next/link';
 
+/* Importação das imagens */
 import image from '../../../public/assets/About/logo-about-company.png'
 
 const features = [
@@ -53,18 +55,14 @@ export default function About() {
             src={image.src}
             alt="Logo da empresa"
             className="w-[20rem] max-w-none rounded-xl  ring-gray-400/10 sm:w-[32rem] md:-ml-4 lg:-ml-0 transition-transform duration-500 hover:translate-x-2 hover:translate-y-2 "
-            width={2432}
-            height={1442}
           />
         </div>
 
         <div className="mt-10 flex flex-col items-start justify-start gap-y-5">
 
           <p className="mt-6 text-lg leading-8 text-gray-600">Schedule your visit with us now and feel the difference of a service designed for you. We are available to discuss how we can meet your needs.</p>
-
-          <a href="#" className="rounded-md bg-[#F3AACB] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#B3CEE5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          >Request your Free Quote
-          </a>
+          
+          <Link className='rounded-md bg-[#F3AACB] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#B3CEE5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600' href="/FormQuote" >Request your Free Quote</Link>
           
         </div>
 
