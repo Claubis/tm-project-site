@@ -5,18 +5,17 @@ import image from '../../../public/assets/About/logo-about-company.png'
 const features = [
   {
     name: 'Connection with the Community',
-    description:
-      'We have deep roots in Kirkland, fully understanding what our neighbors expect and need.',
+    description:'We have deep roots in Kirkland, fully understanding what our neighbors expect and need.',
     icon: GlobeAltIcon,
   },
   {
     name: 'Dedication to Excellence',
-    description: 'We are committed to delivering not just cleaning, but excellence in every service, using advanced methods and high-quality products.',
+    description:'We are committed to delivering not just cleaning, but excellence in every service, using advanced methods and high-quality products.',
     icon: HeartIcon,
   },
   {
     name: 'Flexible Scheduling',
-    description: 'We recognize the hustle and bustle of daily life. Thats why we offer service from Monday to Saturday, allowing you to find the perfect time for us to come by.',
+    description:'We recognize the hustle and bustle of daily life. Thats why we offer service from Monday to Saturday, allowing you to find the perfect time for us to come by.',
     icon: ClockIcon,
   },
 ]
