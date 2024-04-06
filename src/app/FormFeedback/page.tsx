@@ -40,19 +40,19 @@ export default function FormFeedback(){
 
         <div className="bg-[#FFFFF] min-h-full md:flex md:justify-center md:content-center ">
 
-            <div className="w-[100%] flex flex-col justify-content content-center gap-10 p-10 md:p-20 mt-10">
+            <div className="w-[100%] md:pl-10 flex flex-col justify-center gap-10 mt-20 p-10">
 
-                    <h1 className="text-4xl font-bold tracking-tight text-[#064E8B] sm:text-6xl uppercase">Your opinion is essential to us!</h1>
+                    <h1 className="text-6xl font-bold tracking-tight text-[#064E8B]  uppercase ">Your opinion is essential to us!</h1>
 
-                    <h2 className="mt-6 text-lg leading-8 text-gray-800">Complete the form available here and let your voice be heard!</h2>
+                    <h2 className="mt-2 text-3xl leading-8 text-gray-800">Complete the form available here and let your voice be heard!</h2>
 
-                    <p className="mt-6 text-lg leading-8 text-gray-800">By responding to the survey, you have the opportunity to share your ideas, suggestions, and impressions. This will help us improve our services, benefiting you directly. By reserving spaces for professional activities, you can take the time to organize meetings with friends, enjoy valuable moments with family, or explore new knowledge and discoveries.</p>
+                    <p className="mt-2 text-lg leading-8 text-gray-800">By responding to the survey, you have the opportunity to share your ideas, suggestions, and impressions. This will help us improve our services, benefiting you directly. By reserving spaces for professional activities, you can take the time to organize meetings with friends, enjoy valuable moments with family, or explore new knowledge and discoveries.</p>
 
             </div>
 
             <div className="w-[100%] bg-[#FFFFF] p-10">
 
-                <form className="w-[100%] mx-auto bg-[#B3CEE5] rounded-lg p-10 grid-cols-* md:mt-20">
+                <form className="w-[100%] md:w-[80%] mx-auto bg-[#B3CEE5] rounded-lg p-10 grid-cols-* md:mt-20">
 
                     <div className="">
                         
@@ -89,12 +89,10 @@ export default function FormFeedback(){
                     </div>
 
                     <div className='flex justify-center text-center mt-10'>
-                    <a
-                    href="#"
-                    className="rounded-md bg-[#EB9AC0] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#FDEAF2] hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 w-[80%] md:w-[60%]"
-                    >
-                    Submit Your Feedback
-                    </a>
+                    
+                    <div className='rounded-md bg-[#EB9AC0] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#FDEAF2] hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 w-[80%] md:w-[60%]'>
+                        <button type='submit'>Submit</button>
+                    </div>
                 </div>
 
 

@@ -60,7 +60,7 @@ export default function FormQuote() {
                 Next
                 </button>
             ) : (
-                <button className="mt-4 bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">
+                <button className="mt-4 bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded" type='submit'>
                 Send
                 </button>
             )}
@@ -370,11 +370,11 @@ const Schedule = () => {
                 </div>
             </div>
 
-            <div className="w-[26.5rem]">
+            <div className="sm:col-span-6">
 
-                <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Aditional information</label>
+                <label className="flex mb-2 text-sm font-medium text-gray-900 dark:text-white">Aditional information</label>
 
-                <textarea id="message" rows={8} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+                <textarea id="message" rows={5} className="block p-2 w-full text-lg text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
 
             </div>
 

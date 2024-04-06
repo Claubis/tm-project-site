@@ -24,7 +24,7 @@ export default function Home() {
         <CarroselServices/>
         <FormQuote/>
         <FormFeedback/>
-        <AboutFeedback/>
+        {/*<AboutFeedback/>*/}
     </div>
   );
 }
