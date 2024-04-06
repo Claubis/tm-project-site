@@ -37,7 +37,7 @@ export default function About() {
               <br />
               <br />
                 
-              Choose TM Cleaning Service to take care of your space. We're here to help you live better.
+              Choose TM Cleaning Service to take care of your space. We are here to help you live better.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
