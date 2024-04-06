@@ -71,7 +71,7 @@ export default function FormQuote() {
                 
             <h1 className='text-6xl md:text-5xl font-bold tracking-tight text-[#FFFF] uppercase w-[50%] md:w-[70%] lg:w-[60%] mt-20 md:mt-0'>Request your quote</h1>
 
-            <p className='mt-4 text-xl md:text-lg text-gray-500 leading-10 w-[100%] md:w-[50%] lg:w-[40%] mt-40 md:mt-0 mb-20 md:mb-0'>To schedule a cleaning service or request a quote, fill out the form on the side. Share with us the details of the desired service, whether it's for residential, commercial cleaning, or for a special event. We are ready to meet your needs and ensure the cleanliness and comfort you deserve.</p>
+            <p className='mt-4 text-xl md:text-lg text-gray-500 leading-10 w-[100%] md:w-[50%] lg:w-[40%] mt-40 md:mt-0 mb-20 md:mb-0'>To schedule a cleaning service or request a quote, fill out the form on the side. Share with us the details of the desired service, whether its for residential, commercial cleaning, or for a special event. We are ready to meet your needs and ensure the cleanliness and comfort you deserve.</p>
 
             <div className='absolute w-[40%] ml-[40%]  md:w-[30%] md:ml-[20%]  lg:w-[30%]  lg:ml-[20%] mt-[-200px]'>
                 <img className='' src={imagem.src} alt="Imagem da personagem de limpeza" />

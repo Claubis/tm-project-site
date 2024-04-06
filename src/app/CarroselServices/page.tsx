@@ -78,7 +78,7 @@ export default function CarroselServices() {
  
       <div className='text-start mt-10 mb-10 md:text-center w-[100%] md:w-[80%]'>
         <h3 className='mt-6 text-lg leading-8 text-gray-600'>Discover how we dedicate ourselves to every detail of our cleaning services, designed with you in mind.</h3>
-        <h4 className='mt-6 text-lg leading-8 text-gray-600'>We aim to do more than just satisfy; our goal is to delight every client and friend who places their trust in us. The photos you see reflect some of the work we've carried out with care and attention, always striving for excellence to deliver the best possible in each service.</h4>
+        <h4 className='mt-6 text-lg leading-8 text-gray-600'>We aim to do more than just satisfy; our goal is to delight every client and friend who places their trust in us. The photos you see reflect some of the work we ve carried out with care and attention, always striving for excellence to deliver the best possible in each service.</h4>
       </div>
 
     </div>
