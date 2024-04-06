@@ -1,0 +1,15 @@
+
+/* No mesmo arquivo CSS após a definição da animação */
+.animate-color-change {
+    animation: colorChange 3s infinite; 
+  }
+
+@keyframes colorChange {
+  0%, 100% {
+    color: black;
+  }
+  50% {
+    color: #EB9AC0;
+  }
+}
+  

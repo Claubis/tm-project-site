@@ -41,17 +41,17 @@ export default function CarroselServices() {
 
   return (
     
-    <div id="animation-carousel" data-carousel="static" className='flex flex-col justify-center items-center bg-[#FDEAF2] p-5 md:p-20'>
+    <div id="animation-carousel" data-carousel="static" className='flex flex-col justify-center items-center bg-[#FDEAF2] p-6 md:p-20'>
 
-      <div className='w-full'>
+      <div className='w-full px-4 md:flex md:flex-col md:justify-center md:items-center'>
 
-          <h2 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mt-20 md:mt-0'>Serviços realizados</h2>
+          <h2 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl mt-20 md:mt-0'>Services Performed</h2>
 
-          <p className='mt-10 mb-0 text-lg leading-8 text-gray-600'>Conheça um pouco do antes e depois de alguns serviços que já executamos.</p>,
+          <p className='mt-10 mb-0 text-lg leading-8 text-gray-600'>Discover some before and after examples of services we have performed.</p>
 
       </div>
 
-      <div className="mt-10 md:mt-20 w-[100%] md:w-2/5">
+      <div className="mt-10 md:mt-20 w-[100%] md:w-2/5 p-4">
       {/*overflow-hidden*/}
 
 
@@ -77,7 +77,8 @@ export default function CarroselServices() {
       </div>
  
       <div className='text-start mt-10 mb-10 md:text-center w-[100%] md:w-[80%]'>
-        <h3 className='mt-6 text-lg leading-8 text-gray-600'>Descubra como nos dedicamos a cada detalhe dos nossos serviços de limpeza, feitos pensando em você. Queremos mais do que satisfazer; nosso objetivo é encantar cada cliente e amigo que confia em nós. As fotos que você vê refletem alguns dos trabalhos que realizamos com carinho e atenção, sempre buscando a excelência para entregar o melhor possível em cada serviço.</h3>
+        <h3 className='mt-6 text-lg leading-8 text-gray-600'>Discover how we dedicate ourselves to every detail of our cleaning services, designed with you in mind.</h3>
+        <h4 className='mt-6 text-lg leading-8 text-gray-600'>We aim to do more than just satisfy; our goal is to delight every client and friend who places their trust in us. The photos you see reflect some of the work we've carried out with care and attention, always striving for excellence to deliver the best possible in each service.</h4>
       </div>
 
     </div>

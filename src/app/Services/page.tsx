@@ -3,41 +3,41 @@
 const callouts = [
     {
       name: 'Regular Cleaning',
-      description: 'Personalizado às necessidades da sua família, nosso serviço de limpeza regular mantém sua casa consistentemente fresca e acolhedora.',
+      description: "Customized to your family's needs, our regular cleaning service keeps your home consistently fresh and welcoming.",
       imageSrc: '/assets/Services/regular.png',
       imageAlt: 'Imagem de um serviço regular',
       href: '#',
     },
     {
       name: 'Deep Cleaning',
-      description: 'Nossa abordagem abrangente de limpeza profunda vai além das superfícies comumente tocadas e inclui áreas menos utilizadas e pontos de difícil acesso.',
+      description: 'Our comprehensive approach to deep cleaning goes beyond commonly touched surfaces and includes less frequently used areas and hard-to-reach spots.',
       imageSrc: '/assets/Services/Deep.png',
       imageAlt: 'Imagem dos serviços de limpesa profunda',
       href: '#',
     },
     {
       name: 'Move-In & Move-Out',
-      description: 'Facilite sua mudança com a TM Cleaning  Nós fornecemos uma limpeza completa para casas, apartamentos e condomínios durante mudanças de entrada e saída.',
+      description: 'Make your move easier with TM Cleaning. We provide thorough cleaning for homes, apartments, and condominiums during move-in and move-out transitions.',
       imageSrc: '/assets/Services/Mov.png',
       imageAlt: 'Imagem dos serviços de mudanças',
       href: '#',
     },
     {
       name: 'Commercial',
-      description: 'Ideal para proprietários de imóveis e anfitriões. Deixe suas necessidades de limpeza no piloto automático com a TM Cleaning',
+      description: 'Ideal for property owners and hosts. Put your cleaning needs on autopilot with TM Cleaning.',
       imageSrc: '/assets/Services/empresa.png',
       imageAlt: 'Imagem dos serviços comerciais',
       href: '#',
     },
     {
       name: 'Vacation Home',
-      description: 'reconhecendo a limpeza como uma prioridade máxima para os viajantes, utilizamos uma checklist de limpeza de aluguel em 4 etapas para garantir uma limpeza completa, preparando seu aluguel de temporada para novos hóspedes.',
+      description: 'Recognizing cleaning as a top priority for travelers, we utilize a 4-step vacation rental cleaning checklist to ensure thorough cleaning, preparing your vacation rental for new guests.',
       imageSrc: '/assets/Services/vacation.png',
       href: '#',
     },
     {
       name: 'Event',
-      description: 'Organizar um evento já é cansativo o suficiente - deixe-nos cuidar da limpeza. Garantiremos que seu espaço esteja impecável para sua próxima festa ou evento.',
+      description: "Organizing an event is exhausting enough - let us take care of the cleaning. We'll ensure your space is spotless for your next party or event.",
       imageSrc: '/assets/Services/evento.png',
       href: '#',
     },
@@ -47,8 +47,10 @@ const callouts = [
     return (
       <div className="bg-gray-100 min-h-full">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-            <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Sobre nosos Serviços</h2>
+          <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32 px-4">
+            <h2 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">About Our Services</h2>
+
+            <p className="mt-6 text-lg leading-8 text-gray-600">Learn about some of the services we provide, and remember that we can customize each activity and the details according to your needs.</p>
   
             <div className="mt-10 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
               {callouts.map((callout) => (
@@ -60,7 +62,7 @@ const callouts = [
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
-                  <h3 className="mt-6 text-sm text-gray-500">
+                  <h3 className="mt-6 text-sm text-gray-500 pb-2">
                     <a href={callout.href}>
                       <span className="absolute inset-0" />
                       {callout.name}

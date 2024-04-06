@@ -4,19 +4,19 @@ import image from '../../../public/assets/About/logo-about-company.png'
 
 const features = [
   {
-    name: 'Conexão com a Comunidade ',
+    name: 'Connection with the Community',
     description:
-      'Temos raízes profundas em Kirkland, compreendendo perfeitamente o que nossos vizinhos esperam e precisam.',
+      'We have deep roots in Kirkland, fully understanding what our neighbors expect and need.',
     icon: GlobeAltIcon,
   },
   {
-    name: 'Dedicação à Excelência',
-    description: 'Nos comprometemos em entregar não apenas limpeza, mas excelência em cada serviço, com o uso de métodos avançados e produtos de alta qualidade.',
+    name: 'Dedication to Excellence',
+    description: 'We are committed to delivering not just cleaning, but excellence in every service, using advanced methods and high-quality products.',
     icon: HeartIcon,
   },
   {
-    name: 'Horários Adaptáveis',
-    description: 'Reconhecemos a correria do dia a dia. Por isso, disponibilizamos atendimento de segunda a sábado, permitindo que você encontre o momento ideal para nos receber.',
+    name: 'Flexible Scheduling',
+    description: "We recognize the hustle and bustle of daily life. That's why we offer service from Monday to Saturday, allowing you to find the perfect time for us to come by.",
     icon: ClockIcon,
   },
 ]
@@ -28,14 +28,14 @@ export default function About() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Sobre nós</p>
+              <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">About us</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-              Nossa equipe, mais do que profissionais, são pessoas dedicadas a transformar lugares em verdadeiros refúgios de tranquilidade, preparados tanto para uma limpeza do dia a dia quanto aquela geral e profunda.
+              Our team, more than professionals, are people dedicated to transforming places into true havens of tranquility, equipped for both everyday cleaning and thorough, deep cleanings.
 
               <br />
               <br />
                 
-            Escolha a TM Cleaning Service para cuidar do seu espaço. Estamos aqui para ajudar você a viver melhor.
+              Choose TM Cleaning Service to take care of your space. We're here to help you live better.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
@@ -61,10 +61,10 @@ export default function About() {
 
         <div className="mt-10 flex flex-col items-start justify-start gap-y-5">
 
-          <p className="mt-6 text-lg= leading-8 text-gray-600 w-[22rem] md:w-[32rem]">Marque sua visita conosco agora e sinta a diferença de um serviço pensado para você. Estamos à disposição para discutir como podemos atender às suas necessidades. </p>
+          <p className="mt-6 text-lg leading-8 text-gray-600">Schedule your visit with us now and feel the difference of a service designed for you. We are available to discuss how we can meet your needs.</p>
 
           <a href="#" className="rounded-md bg-[#F3AACB] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#B3CEE5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          >Solicite seu orçamento Grátis
+          >Request your Free Quote
           </a>
           
         </div>

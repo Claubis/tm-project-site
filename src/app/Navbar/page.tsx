@@ -7,18 +7,22 @@ npm install @heroicons/react
 
 */
 
+/* Importações gerais */
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
+/* Importação das imagens */
 import image from '../../../public/assets/Navbar/logo-oficial.png'
 
+
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'Company', href: '#' },
-  { name: 'Services', href: '#' },
-  { name: 'Quote', href: '#' },
-  { name: 'Feedback', href: '#' },
+  { name: 'Home', href: './' },
+  { name: 'Company', href: '/About' },
+  { name: 'Services', href: '/Services' },
+  { name: 'Quote', href: '/FormQuote' },
+  { name: 'Feedback', href: '/FormFeedback' },
 ]
 
 export default function Navbar() {
@@ -32,7 +36,7 @@ export default function Navbar() {
           
           <div className="flex lg:flex-1">
             
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="./" className="-m-1.5 p-1.5">
               <span className="sr-only">TM Cleaning Service</span>
               <img
                 className="h-12 w-auto"
@@ -61,7 +65,7 @@ export default function Navbar() {
           </div>
           
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-xl font-semibold leading-6 text-gray-900">
+            <a href="/FormQuote" className="text-xl font-semibold leading-6 text-gray-900">
               Contact <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -103,7 +107,7 @@ export default function Navbar() {
                 </div>
                 <div className="py-6">
                   <a
-                    href="#"
+                    href="/FormQuote"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Contact

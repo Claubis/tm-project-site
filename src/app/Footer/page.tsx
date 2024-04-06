@@ -19,7 +19,7 @@ export default function Footer() {
             <div className="container px-6 py-12 mx-auto">
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
                     <div className="sm:col-span-1">
-                        <h1 className="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">Siga nossa empresa nas plataformas de mídia social. </h1>
+                        <h1 className="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">Follow our company on social media platforms.</h1>
 
                         <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
                     
@@ -29,19 +29,19 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <p className="font-semibold text-gray-800 dark:text-white">Empresa</p>
+                        <p className="font-semibold text-gray-800 dark:text-white">Company</p>
 
                         <div className="flex flex-col items-start mt-5 space-y-2">
-                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Sobre</p>
-                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Solicite orçamento</p>
-                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Serviços</p>
-                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Horário de atendimento</p>
+                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">About</p>
+                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Request your Quote</p>
+                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Services</p>
+                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Business hours</p>
                             <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Feedback</p>
                         </div>
                     </div>
 
                     <div>
-                        <p className="font-semibold text-gray-800 dark:text-white">Serviços</p>
+                        <p className="font-semibold text-gray-800 dark:text-white">Services</p>
 
                         <div className="flex flex-col items-start mt-5 space-y-2">
                             <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Regular Cleaning</p>
@@ -54,12 +54,12 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <p className="font-semibold text-gray-800 dark:text-white">Contato</p>
+                        <p className="font-semibold text-gray-800 dark:text-white">Contact</p>
 
                         <div className="flex flex-col items-start mt-5 space-y-2">
-                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Telefone</p>
-                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Mensagem</p>
-                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">E-mail</p>
+                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Phone</p>
+                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Message</p>
+                            <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Mail</p>
                             
                         </div>
                     </div>
@@ -68,7 +68,7 @@ export default function Footer() {
                 
                 <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
                 
-                <p className="font-sans p-8 text-start md:text-center md:text-lg md:p-4 dark:text-[#EB9AC0]">&copy; 2024 TM Cleaning. Todos os direitos reservados.</p>
+                <p className="font-title p-8 text-start md:text-center md:text-lg md:p-4 dark:text-[#EB9AC0]">&copy; 2024 TM Cleaning. All rights reserved.</p>
             </div>
         </footer>
 

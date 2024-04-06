@@ -42,11 +42,11 @@ export default function FormFeedback(){
 
             <div className="w-[100%] flex flex-col justify-content content-center gap-10 p-10 md:p-20 mt-10">
 
-                    <h1 className="text-4xl font-bold tracking-tight text-[#064E8B] sm:text-6xl uppercase">Sua opinião é essencial para nós!</h1>
+                    <h1 className="text-4xl font-bold tracking-tight text-[#064E8B] sm:text-6xl uppercase">Your opinion is essential to us!</h1>
 
-                    <h2 className="mt-6 text-lg leading-8 text-gray-800">Complete o formulário disponível aqui ao lado e faça com que sua voz ecoe!</h2>
+                    <h2 className="mt-6 text-lg leading-8 text-gray-800">Complete the form available here and let your voice be heard!</h2>
 
-                    <p className="mt-6 text-lg leading-8 text-gray-800">Ao responder à pesquisa, você tem a oportunidade de compartilhar suas ideias, sugestões e impressões. Com isso, nos ajudará a aprimorar nossos serviços, beneficiando-se diretamente ao reservar espaços para atividades profissionais, poderá aproveitar o tempo para organizar encontros com amigos, desfrutar de momentos valiosos em família ou explorar novos conhecimentos e descobertas.</p>
+                    <p className="mt-6 text-lg leading-8 text-gray-800">By responding to the survey, you have the opportunity to share your ideas, suggestions, and impressions. This will help us improve our services, benefiting you directly. By reserving spaces for professional activities, you can take the time to organize meetings with friends, enjoy valuable moments with family, or explore new knowledge and discoveries.</p>
 
             </div>
 
@@ -93,7 +93,7 @@ export default function FormFeedback(){
                     href="#"
                     className="rounded-md bg-[#EB9AC0] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#FDEAF2] hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 w-[80%] md:w-[60%]"
                     >
-                    Enviar meu feedback
+                    Submit Your Feedback
                     </a>
                 </div>
 

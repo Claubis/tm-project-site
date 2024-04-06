@@ -26,36 +26,36 @@ export default function AboutService() {
           
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8 ">
             
-              <div className="sm:max-w-lg leading-10 md:pt-[50px]">
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl pb-5 md:pb-10 uppercase md:normal-case">
-                  Serviços oferecidos
+              <div className="sm:max-w-lg leading-10 md:pt-[50px] lg:pt-4 px-4">
+                <h1 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Services Offered
                 </h1>
-                <p className="mt-4 text-xl text-gray-500 leading-10 md:leading-1">
-                  Estamos em constante evolução e queremos o melhor para sua residência, para sua empresa, para cada bem que você possui. 
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  We are constantly evolving and want the best for your home, your business, and every asset you own.
 
                   <br /> <br />
 
-                  Temos diversos serviços como Regular Cleaning, Deep Cleaning, Move-in & Move-out, Commercial, Vacation Home, Event, e muito mais.
+                  We offer a variety of services such as Regular Cleaning, Deep Cleaning, Move-in & Move-out, Commercial, Vacation Home, Event, and much more.
 
                 </p>
 
                 <div>
                   
-                  <h2 className='text-xl font-bold text-gray-900'>Escolha entre</h2>
+                  <h2 className='text-xl font-bold text-gray-900 mt-10'>Choose between</h2>
 
                   <div className='mt-6'>
-                      <p className="flex items-center mt-5"><FontAwesomeIcon className="w-5 h-5 mr-2" icon={faClock} />Serviços diários</p>
-                      <p className="flex items-center mt-5"><FontAwesomeIcon className="w-5 h-5 mr-2" icon={faCalendarWeek} />Semanais</p>
-                      <p className="flex items-center mt-5"><FontAwesomeIcon className="w-5 h-5 mr-2" icon={faCalendarAlt} />quinzenal</p>
-                      <p className="flex items-center mt-5 mb-10"><FontAwesomeIcon className="w-5 h-5 mr-2" icon={faCalendar} />mensal</p>
+                      <p className="flex items-center mt-5"><FontAwesomeIcon className="w-5 h-5 mr-2" icon={faClock} />Daily Services</p>
+                      <p className="flex items-center mt-5"><FontAwesomeIcon className="w-5 h-5 mr-2" icon={faCalendarWeek} />Weekly</p>
+                      <p className="flex items-center mt-5"><FontAwesomeIcon className="w-5 h-5 mr-2" icon={faCalendarAlt} />Biweekly</p>
+                      <p className="flex items-center mt-5 mb-10"><FontAwesomeIcon className="w-5 h-5 mr-2" icon={faCalendar} />Monthly</p>
                   </div>
 
 
                 </div>
 
-                <a href="#" className="font-semibold text-indigo-600 mt-6">
+                <a href="/CarroselServices" className="font-semibold text-indigo-600 mt-6">
                   <span className="absolute inset-0" aria-hidden="true" />
-                   Conheça o antes e depois dos nossos serviços <span aria-hidden="true">&rarr;</span>
+                  Discover the before and after of our services<span aria-hidden="true">&rarr;</span>
                 </a>
 
               </div>
@@ -135,7 +135,7 @@ export default function AboutService() {
                     href="#"
                     className="inline-block rounded-md border border-transparent bg-[#F3AACB] px-8 py-3 text-center font-medium text-white hover:bg-[#B3CEE5"
                   >
-                    Orçamento grátis
+                    Free estimate
                   </a>
                 </div>
               </div>
