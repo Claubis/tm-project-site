@@ -9,6 +9,7 @@ import React from 'react';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 export default function Footer() {
@@ -22,9 +23,13 @@ export default function Footer() {
 
                         <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
                     
-                        <img src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" width="30" height="30" alt="inst" />
+                        <Image src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" width="30" height="30" alt="instagram" className='mb-5'></Image>
 
                         </div>
+
+                        <a href="https://www.instagram.com/tm_housecleaning?igsh=MjgybWFhMWdnOTM%3D&utm_source=qr" className='text-sm'>Click here to visit our Instagram page.</a>
+
+                        
                     </div>
 
                     <div>

@@ -96,6 +96,8 @@ export default function FormQuote() {
     onSubmit={handleSubmit} 
     className='bg-[#F3AACB] grid md:flex px-10 justify-center items-center min-h-[840px]'>
         
+        <input type="hidden" name="form-name" value="form-quote" />
+        
         <div className="bg-white rounded-xl h-[600px] md:h-[550px] w-[100%] md:w-[50%] p-10 order-2 md:order-1 mb-20 md:mb-0">
         
         {renderStep()}
