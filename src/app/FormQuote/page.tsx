@@ -5,7 +5,6 @@ import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 
 /* Instalar suporte para o formulário 
 npm install @heroicons/react
-
 */
 
 /* Importação da imagem */

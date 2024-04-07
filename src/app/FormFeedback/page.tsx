@@ -52,7 +52,7 @@ export default function FormFeedback(){
 
             <div className="w-[100%] bg-[#FFFFF] p-10">
 
-                <form className="w-[100%] md:w-[80%] mx-auto bg-[#B3CEE5] rounded-lg p-10 grid-cols-* md:mt-20">
+                <form className="w-[100%] md:w-[80%] mx-auto bg-[#B3CEE5] rounded-lg p-10 grid-cols-* md:mt-20" name='formulario-feedback' method='post' data-netlify="true">
 
                     <div className="">
                         
