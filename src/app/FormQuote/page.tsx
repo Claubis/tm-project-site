@@ -44,7 +44,7 @@ export default function FormQuote() {
   };
 
   return (
-    <div className='bg-[#F3AACB] grid md:flex px-10 justify-center items-center min-h-[840px]'>
+    <form name='form-quote' method='post' data-netlify="true" className='bg-[#F3AACB] grid md:flex px-10 justify-center items-center min-h-[840px]'>
         
         <div className="bg-white rounded-xl h-[600px] md:h-[550px] w-[100%] md:w-[50%] p-10 order-2 md:order-1 mb-20 md:mb-0">
         {renderStep()}
@@ -77,7 +77,7 @@ export default function FormQuote() {
             </div>
         </div>
 
-    </div>
+    </form>
 
     
   );
@@ -330,6 +330,8 @@ const AdditionalInfo = () => {
 const Schedule = () => {
   // Formulário de agendamento
   return (
+
+
     <div className="w-full">
                     
         <h2 className="text-lg font-semibold leading-7 text-gray-900 uppercase text-blue-900 mt-10">Appointment</h2>
