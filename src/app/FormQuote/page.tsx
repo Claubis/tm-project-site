@@ -10,12 +10,14 @@ npm install @heroicons/react
 /* Importação da imagem */
 import imagem from '../../../public/assets/Form/imagem-removebg-preview.png';
 
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
 type FormDataChangeHandler = (name: string, value: string) => void;
 
 
 export default function FormQuote() {
+
+  const formRef = useRef<HTMLFormElement>(null); 
 
     // Estado para controlar a etapa atual do formulário
   const [currentStep, setCurrentStep] = useState(1);
@@ -77,13 +79,22 @@ export default function FormQuote() {
 
     }else {
         console.log('Enviando o formulário...', formData);
+        if(formRef.current !== null){
+          formRef.current.submit(); // Isso aciona o envio do formulário.
+      }
     }
     
   };
 
   return (
     
-    <form name='form-quote' method='post' data-netlify="true" onSubmit={handleSubmit} className='bg-[#F3AACB] grid md:flex px-10 justify-center items-center min-h-[840px]'>
+    <form 
+    ref={formRef}
+    name='form-quote' 
+    method='post' 
+    data-netlify="true" 
+    onSubmit={handleSubmit} 
+    className='bg-[#F3AACB] grid md:flex px-10 justify-center items-center min-h-[840px]'>
         
         <div className="bg-white rounded-xl h-[600px] md:h-[550px] w-[100%] md:w-[50%] p-10 order-2 md:order-1 mb-20 md:mb-0">
         
