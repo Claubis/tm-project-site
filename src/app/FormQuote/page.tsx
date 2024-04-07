@@ -100,6 +100,16 @@ export default function FormQuote() {
         <input type="hidden" name="firstName" value={formData.firstName} />
         <input type="hidden" name="phone" value={formData.phone} />
         <input type="hidden" name="email" value={formData.email} />
+        <input type="hidden" name="streetAddress" value={formData.streetAddress} />
+        <input type="hidden" name="city" value={formData.city} />
+        <input type="hidden" name="region" value={formData.region} />
+        <input type="hidden" name="postalCode" value={formData.postalCode} />
+        <input type="hidden" name="room" value={formData.room} />
+        <input type="hidden" name="pet" value={formData.pet} />
+        <input type="hidden" name="frequency" value={formData.frequency} />
+        <input type="hidden" name="date" value={formData.date} />
+        <input type="hidden" name="hour" value={formData.hour} />
+        <input type="hidden" name="message" value={formData.message} />
         
         <div className="bg-white rounded-xl h-[600px] md:h-[550px] w-[100%] md:w-[50%] p-10 order-2 md:order-1 mb-20 md:mb-0">
         
