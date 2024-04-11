@@ -63,7 +63,7 @@ export default function About() {
           />
         </div>
 
-        <div className="mt-10 flex flex-col items-start justify-start gap-y-5">
+        <div className="mt-10 flex flex-col items-center justify-center md:items-start gap-y-5">
 
           <p className="mt-6 text-lg leading-8 text-gray-600">Schedule your visit with us now and feel the difference of a service designed for you. We are available to discuss how we can meet your needs.</p>
           
