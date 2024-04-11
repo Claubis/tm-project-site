@@ -1,5 +1,6 @@
 
 import './style.css'
+import Link from 'next/link'
 
 import imagem from '../../../public/assets/Feedback/imagem.jpg'
 import imagem2 from '../../../public/assets/Feedback/imagem2.jpg'
@@ -18,12 +19,12 @@ export default function AboutFeedback(){
                 <p className='mt-4 text-xl text-gray-500 leading-10 md:leading-1 mb-10 m-2'> In three simple steps, you can submit your suggestions, criticisms, compliments, and any comments that can help us evolve.</p>
 
                 <div className='flex justify-center text-center mb-20 md:mb-0'>
-                    <a
+                    <Link
                     href="#"
                     className="rounded-md bg-[#EB9AC0] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#B3CEE5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 w-[50%] md:w-[70%]"
                     >
                     Take the survey
-                    </a>
+                    </Link>
                 </div>
             </div>
 

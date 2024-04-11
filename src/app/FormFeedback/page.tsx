@@ -56,17 +56,17 @@ export default function FormFeedback(){
 
                     <div className="">
                         
-                        <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+                        <label className="block mb-2 text-sm font-medium text-gray-900">Name</label>
                         
-                        <input name='nome-feedback' type="text" id="small-input" className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
+                        <input name='nome-feedback' type="text" id="small-input" className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs"/>
                     </div>
 
                     
                     <div className="mx-auto mt-10"> 
 
-                        <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+                        <label className="block mb-2 text-sm font-medium text-gray-900">Your email</label>
 
-                        <input name='email-feedback' type="email" id="email" aria-describedby="helper-text-explanation" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@gmail.com"/>
+                        <input name='email-feedback' type="email" id="email" aria-describedby="helper-text-explanation" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5  " placeholder="name@gmail.com"/>
 
                     </div>
 
@@ -82,9 +82,9 @@ export default function FormFeedback(){
                     
                     <div className="mx-auto mt-20">
 
-                        <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+                        <label className="block mb-2 text-sm font-medium text-gray-900">Your message</label>
 
-                        <textarea name='descricao-feedback' id="message" rows={8} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+                        <textarea name='descricao-feedback' id="message" rows={8} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" placeholder="Leave a comment..."></textarea>
 
                     </div>
 

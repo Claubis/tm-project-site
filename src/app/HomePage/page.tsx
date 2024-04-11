@@ -5,7 +5,7 @@ import './style.css'
 export default function HomePage() {
 
     return (
-        <div className="relative isolate px-6 pt-5 lg:px-8">
+        <div className="isolate px-6 pt-5 lg:px-8">
                 
                 <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
                 
@@ -28,10 +28,10 @@ export default function HomePage() {
                     <div className="">
 
                         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl uppercase text-left md:text-center animate-color-change text-4xl font-bold">
-                        TM Cleaning Service
+                        TM Service Cleaning
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-600 md:text-center w-[80%] md:w-full ">
-                        Welcome to TM Cleaning Service, where we take care of every corner of Kirkland and the surrounding area. We step in so you can relax and devote yourself to what really matters to you. With our heartfelt team, we ensure that every space of yours shines, leaving you with a sense of peace and more free time to enjoy life.
+                        Welcome to TM Service Cleaning, where we take care of every corner of Kirkland and the surrounding area. We step in so you can relax and devote yourself to what really matters to you. With our heartfelt team, we ensure that every space of yours shines, leaving you with a sense of peace and more free time to enjoy life.
                         </p>
                     
                     <div className="mt-10 grid gap-5 md:flex md:items-center md:justify-center md:gap-x-6 w-[80%]">
